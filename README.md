@@ -5,7 +5,7 @@ Hand-rolled implementation of the basic functionality of Ruby on Rails and Activ
 * Singleton `Router` with REGEX based route generation
 * `ApplicationController` (as `ControllerBase`)
 * Rendering of `erb` template views
-* `Session`, `Flash` and `Flash.now`
+* Exposes `params`, `session`, `Flash` and `Flash.now`
 * CSRF protection with `form authenticity token` helper
 * Basic `middleware` (`StaticAssets` & `ShowExceptions`)
 
